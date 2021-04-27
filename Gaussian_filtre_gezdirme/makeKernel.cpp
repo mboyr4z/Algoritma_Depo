@@ -26,6 +26,9 @@ double** zeroesAndMatrix(double** arr,int size);
 double** createGaussian(int filterSize);
 double** moveFilterOnMatrix(double** zeromatrix, double** gaussian, int EdgeImageSize, int gaussianSize, int imageSize);
 double** cutToMatrix(double** bigMatrix, int imageSize);
+void writeLine(int size);
+void writeTxt();
+
 // VARIABLES
 double** image;
 double** imageWithEdges;
@@ -35,9 +38,10 @@ double** gaussian;
 double** filteredMatrix;
 double** outputImage;
 int parameterArray[4];
+ofstream outfile;
 
 int main(){	
-
+   	outfile.open("outputs.txt");
 	getParameters();
 	imageSize = parameterArray[0];
 	filterSize = parameterArray[1];
@@ -45,22 +49,87 @@ int main(){
 	blackValue = parameterArray[3];
 	edgeWidth = filterSize / 2;
 	
+	
 	image = getMatrix(imageSize);											// Resim oluþturuldu
 	randomVariables2Array(image,imageSize,whiteValue,blackValue);			// Resime rastgele  deðerrler atandý
-	double** last_Arr = getMatrixWithEdges(image,imageSize,edgeWidth);		// kenarlýklarý eklendi
-	//printKernel(last_Arr,7);
+	double** last_Arr = getMatrixWithEdges(image,imageSize,edgeWidth);		// kenarlýklarý eklendi	
 	zeroMatrix = zeroesAndMatrix(last_Arr,(imageSize) + (edgeWidth * 2));   // 0 matrisi oluþturuldu ve içerisine imageyi aldý
-	printKernel(zeroMatrix,21);
-	
 	gaussian = createGaussian(filterSize);									// gaussian oluþturuldu
 	filteredMatrix = moveFilterOnMatrix(zeroMatrix, gaussian, (imageSize + (edgeWidth) * 2), filterSize, imageSize);		// filtreli resim elde edildi
-	printKernel(filteredMatrix,21);
 	outputImage = cutToMatrix(filteredMatrix,imageSize);							// filtreli resim kýrpýlarak çýktý resimi verildi
-	printKernel(outputImage,imageSize);
 	
 
+
+	writeTxt();
+	//printKernel(last_Arr,7);
+	
+	//printKernel(zeroMatrix,21);
+	
+
+	//printKernel(filteredMatrix,21);
+
+	//printKernel(outputImage,imageSize);
+	
+	outfile.close();
 	return 0;
 }
+
+void writeTxt(){
+	outfile << "Input Image (" << imageSize << "x" << imageSize << ")\n";
+	
+	writeLine(imageSize*9);
+	printKernel(image,imageSize);					// resim bastýrýldý
+	writeLine(imageSize*9);
+	
+	outfile << "Gaussian Filter (" << filterSize << "x" << filterSize << ")\n";
+	
+	writeLine(filterSize*9);
+	printKernel(gaussian,filterSize);					// filtre bastýrýldý
+	writeLine(filterSize*9);
+	
+	outfile << "Input Grid: Edge Mirrored Image (21x21)\n";
+	
+	writeLine(21*9);
+	printKernel(zeroMatrix,21);					// 0 lý ve kenarlý matris bastýrýldý
+	writeLine(21*9);
+	
+	outfile << "Output Grid: Cutted-Edge Image (21x21)\n";
+	
+	writeLine(21*9);
+	printKernel(filteredMatrix,21);					// kenarlarý kesilmiþ sýfýrlý matris bastýrýldý
+	writeLine(21*9);
+	
+	outfile << "Output (Filtered) Image ("<< imageSize << "x"<< imageSize <<")\n";
+	
+	writeLine(imageSize*9);
+	printKernel(outputImage,imageSize);					// resim bastýrýldý
+	writeLine(imageSize*9);
+	
+
+}
+
+void writeLine(int size){
+	int i;
+	for(i = 0; i < size ; i++){
+		outfile << "-";
+	}
+	outfile << "\n";
+}
+void printKernel(double** array, int fsize){
+	
+	int i, j;
+	for (i = 0; i < fsize; i++)
+	{
+		for (j = 0; j < fsize; j++)
+		{
+			outfile << fixed << setprecision(4) << setw(9) << array[i][j];	
+
+		}
+		outfile << "\n"; 
+	}
+}
+
+
 
 double** cutToMatrix(double** bigMatrix, int imageSize){
 	double** outputmatrix = getMatrix(imageSize);
@@ -244,62 +313,6 @@ void getParameters(){
   }
 }
 
-void printKernel(double** array, int fsize){
-	
-	cout << "--------------------\n";
-	int i, j;
-	setprecision(4);
-	for (i = 0; i < fsize; i++)
-	{
-		for (j = 0; j < fsize; j++)
-		{
-			cout.precision(4);
-			cout << right  << setw(9) << array[i][j];
-			
-		}
-		cout << endl; 
-	}
-		cout << "--------------------\n";
-}
-/*
-void maindekiler(){
-	double kernel[FILTERSIZE][FILTERSIZE] = { 0 };
-	int d, i, j, f, fsize;
-	double value;
-
-	cout.setf(ios::fixed);
-	cout.precision(4);
-	
-	cout << "Enter filter size: ";
-	cin >> fsize;
-
-	f = fsize / 2;
-	for (d = 0; d < f; d++)
-	{
-		value = 1.0 / pow((2 * (d + 1) + 1), 2);
-		for (i = -(d + 1); i <= d + 1; i++)
-		{
-			for (j = -(d + 1); j <= d + 1; j++)
-				kernel[f - i][f - j] = kernel[f - i][f - j] + value;
-		}
-
-	}
-
-
-	for (i = 0; i < fsize; i++)
-	{
-		for (j = 0; j < fsize; j++)
-		{
-			kernel[i][j] = kernel[i][j] / static_cast<double>(fsize);
-		}
-	}
-	printKernel(kernel, fsize);
-
-
-	cout << endl << endl;
-	system("pause");
-}
-*/
 
 
 
