@@ -21,25 +21,23 @@
    ikinci satır filtre boyutu,<br>
    üçüncü satır max pixsel değeri,<br>
    dördüncü satır min pixel değeri<br>
+   <ul type="square">
+   Burada resim, matris olarak ele alınmış ve pixel değerleri random olarak atanmıştır.
 
-   * Burada resim, matris olarak ele alınmış ve pixel değerleri random olarak atanmıştır.
-   <hr>
+   <li>Resim alınır, kenarları kendi değerleriyle, (filtre boyutu / 2) kalınlıkla artırılır.(Amaç Yumuşatmayı 0 değerlerinden kurtarmak, en doğru şekilde kendi değerleriyle yaptırmak).</li>
+   <li>Kenarları belli olan resim 21*21 sabit matris üzerine yapıştırılır.(Üzerinde gezicek olan filtre hiç bi şekilde arraytan taşma hatası almaz).</li>
 
-   * Resim alınır, kenarları kendi değerleriyle, (filtre boyutu / 2) kalınlıkla artırılır.(Amaç Yumuşatmayı 0 değerlerinden kurtarmak, en doğru şekilde kendi değerleriyle yaptırmak).
-   * Kenarları belli olan resim 21*21 sabit matris üzerine yapıştırılır.(Üzerinde gezicek olan filtre hiç bi şekilde arraytan taşma hatası almaz).
-
-   * 21*21 matrisin belirli koordinatından başlayarak gezme başlar. üst üste gelen matris değerleri çarpılır ve filtrenin orta elemanına dek gelen, tamamen sıfırlardan oluşan matrise sonuç yapıştırılır. <br><br>
-
-   * Sonuç = (1.gausPix*1.resimPix + 2.Gaus........... + n*GausPix* n.ResimPix) / n ' dir.(n = filtre boyutu)
+   <li>21*21 matrisin belirli koordinatından başlayarak gezme başlar. üst üste gelen matris değerleri çarpılır ve filtrenin orta elemanına dek gelen, tamamen sıfırlardan oluşan matrise sonuç yapıştırılır. </li>
+   <li>Sonuç = (1.gausPix*1.resimPix + 2.Gaus........... + n*GausPix* n.ResimPix) / n ' dir.(n = filtre boyutu)</li>
 
     
 
-   * Ortaya çıkan ve ortasında input resmi kadar matris barındıran ve kenarları 0 olan matristen 0 olan değerler kesilir. 
-   * Geriye sadece resim boyutu kadar output matris çıkar.
+   <li>Ortaya çıkan ve ortasında input resmi kadar matris barındıran ve kenarları 0 olan matristen 0 olan değerler kesilir. </li>
+   <li>Geriye sadece resim boyutu kadar output matris çıkar.</li>
 
-   * Ve output matris yazdırılır.
+   <li>Ve output matris yazdırılır.</li>
 
-
+   <ul>
 
    <table>
       <tr>
