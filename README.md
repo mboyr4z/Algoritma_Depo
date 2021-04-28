@@ -22,7 +22,7 @@
    üçüncü satır max pixsel değeri,<br>
    dördüncü satır min pixel değeri<br>
 
-   Burada resim, matris olarak ele alınmış ve pixel değerleri random olarak atanmıştır.
+   Burada resim, matris olarak ele alınmış ve pixel değerleri random olarak atanmıştır.</code>
 
       .a Resim alınır, kenarları kendi değerleriyle, (filtre boyutu / 2) kalınlıkla artırılır.(Amaç Yumuşatmayı 0 değerlerinden kurtarmak, en doğru şekilde kendi değerleriyle yaptırmak).
       .b Kenarları belli olan resim 21*21 sabit matris üzerine yapıştırılır.(Üzerinde gezicek olan filtre hiç bi şekilde arraytan taşma hatası almaz).
@@ -36,7 +36,7 @@
      Ortaya çıkan ve ortasında input resmi kadar matris barındıran ve kenarları 0 olan matristen 0 olan değerler kesilir. 
      <br> Geriye sadece resim boyutu kadar output matris çıkar.
 
-     Ve output matris yazdırılır.
+     Ve output matris yazdırılır.</code>
 
 
 
