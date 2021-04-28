@@ -1,9 +1,9 @@
 # Algoritma_Depo
 
 
-<h2><a href="#a_1">1. Gaussian Filtre Gezdirme</a></h2>
-<h2><a href="#a_2">1. Gaussian Filtre Gezdirme</a></h2>
-<h2><a href="#a_3">1. Gaussian Filtre Gezdirme</a></h2>
+<h3><a href="#a_1">1. Gaussian Filtre Gezdirme</a></h3>
+<h3><a href="#a_2">1. Gaussian Filtre Gezdirme</a></h3>
+<h3><a href="#a_3">1. Gaussian Filtre Gezdirme</a></h3>
 
 Kodlamış olduğumuz algoritmada amaç gaussian yöntemiyle fotoğrafta kenar yumuşatmadır.<br>
 Gaussian'ın bu filtresi, kullanıcıdan alınan "input.txt" ye göre boyutlanır ve her bi matris elemanı 0.0370 dir.<br>
