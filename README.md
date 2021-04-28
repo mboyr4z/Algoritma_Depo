@@ -70,9 +70,11 @@
 
    
    * Sözlük bu şekilde kullanılabilir ama kelimeleri bulmak bilgisayar için zaman almaktadır.
+
+   <hr>
+   <h3>ADIMLAR</h3>
    <ul type="square">
-   <li>Eğer bir türkçe kelimenin ingilizce yerinin hangi satırda olduğunu net olarak bilirsek arama algoritması kullanmaya gerek kalmaz </li>
-        
+   <li>Eğer bir türkçe kelimenin ingilizce yerinin hangi satırda olduğunu net olarak bilirsek arama algoritması kullanmaya gerek kalmaz </li>        
    <li>Program bu yüzden asal çarpan metodu kullanır.</li>
    <li>Sıralı halde bulunan ardışık asallarla kelimede bulunan karakterlerin ASCII lerini birebir çarpıp tooplar</li>
    <li>Kaydedeceğimiz yerin uzunluğuna göre modunu alır ve satır sayısı ortaya çıkar</li>
