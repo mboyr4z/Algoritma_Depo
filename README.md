@@ -70,7 +70,7 @@
 
    
    * Sözlük bu şekilde kullanılabilir ama kelimeleri bulmak bilgisayar için zaman almaktadır.
-   <ol>
+   <ul type="square">
    <li>Eğer bir türkçe kelimenin ingilizce yerinin hangi satırda olduğunu net olarak bilirsek arama algoritması kullanmaya gerek kalmaz </li>
         
    <li>Program bu yüzden asal çarpan metodu kullanır.</li>
@@ -79,7 +79,7 @@
    <li>Aynı satıra dek gelen kelimeler aralarında belirteç olarak ** tutularak yan yana yazılır. Bu sayede yerleri yine bellidir</li>
    <li>Bu çıktıları "sozluk1.txt" ye kaydeder ve aramayı oradan yapar. Max arama istenilen ingilizce kelimenin satırındaki kelimeler kadardır</li>
    <li>YANİ MÜKEMMEL Bİ ALGORİTMA</li>
-   </ol>
+   </ul>
    
 
    
