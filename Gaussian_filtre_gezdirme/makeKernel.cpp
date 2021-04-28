@@ -290,6 +290,12 @@ double** getMatrix(int size){
     for(int i=0;i<size;i++){
         arr[i] = new double[size];
     }
+	
+	for(int i = 0;i < size; i++){
+		for(int j = 0; j < size; j++){
+			arr[i][j]=0.0;
+		}
+	}
     return arr;    
 }
 
@@ -301,12 +307,16 @@ void getParameters(){
   if ( dosyaOku.is_open() ){
 
     while ( getline(dosyaOku, satir) ){
-	  
-	  stringstream degree(satir);		// stringleri int çevirdik
+	  if(i<4){
+		  stringstream degree(satir);		// stringleri int çevirdik
 	  int x;
 	  degree >> x;
 	  parameterArray[i] = x;
 	  i++;
+	  }else{
+		  break;
+	  }
+	  
     }
 
     dosyaOku.close();
