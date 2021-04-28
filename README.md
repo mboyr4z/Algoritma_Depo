@@ -5,11 +5,11 @@
 
 Kodlamış olduğumuz algoritmada amaç gaussian yöntemiyle fotoğrafta kenar yumuşatmadır.<br>
 Gaussian'ın bu filtresi, kullanıcıdan alınan "input.txt" ye göre boyutlanır ve her bi matris elemanı 0.0370 dir.<br>
-input içi;
-ilk satır, fotoğraf boyutu,
-ikinci satır filtre boyutu,
-üçüncü satır max pixsel değeri,
-dördüncü satır min pixel değeri
+input içi;<br>
+ilk satır, fotoğraf boyutu,<br>
+ikinci satır filtre boyutu,<br>
+üçüncü satır max pixsel değeri,<br>
+dördüncü satır min pixel değeri<br>
 
 Burada resim, matris olarak ele alınmış ve pixel değerleri random olarak atanmıştır.
 
