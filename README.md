@@ -19,7 +19,7 @@
    input içi;<br>
    ilk satır, fotoğraf boyutu,<br>
    ikinci satır filtre boyutu,<br>
-   üçüncü satır max pixsel değeri,<br>
+   üçüncü satır max pixsel değeri<br>
    dördüncü satır min pixel değeri<br>
    Burada resim, matris olarak ele alınmış ve pixel değerleri random olarak atanmıştır.<br>
    
@@ -29,7 +29,7 @@
  
    
    <li>Resim alınır, kenarları kendi değerleriyle, (filtre boyutu / 2) kalınlıkla artırılır.(Amaç Yumuşatmayı 0 değerlerinden kurtarmak, en doğru şekilde kendi değerleriyle yaptırmak).</li>
-   <li>Kenarları belli olan resim 21*21 sabit matris üzerine yapıştırılır.(Üzerinde gezicek olan filtre hiç bi şekilde arraytan taşma hatası almaz).</li>
+   <li>Kenarları belli olan resim 21*21 sabit matris üzerine yapıştırılır.(Üzerinde gezicek olan filtre hiç bi şekilde arraydan taşma hatası almaz).</li>
 
    <li>21*21 matrisin belirli koordinatından başlayarak gezme başlar. üst üste gelen matris değerleri çarpılır ve filtrenin orta elemanına dek gelen, tamamen sıfırlardan oluşan matrise sonuç yapıştırılır. </li>
    <li>Sonuç = (1.gausPix*1.resimPix + 2.Gaus........... + n*GausPix* n.ResimPix) / n ' dir.(n = filtre boyutu)</li>
