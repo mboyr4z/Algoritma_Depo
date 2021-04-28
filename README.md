@@ -62,25 +62,24 @@
    
    <h3>Amaç :</h3>
    
-   <ol>
-       <li>"sozluk.txt" içerisinde sol tarafta türkçeler ve sağ tarafta ingilizceler olmak üzere sözlük vardır</li>
-        <img src="https://user-images.githubusercontent.com/82450697/116370214-da489680-a812-11eb-896f-7a820b8a0cf3.PNG">
+
+   * "sozluk.txt" içerisinde sol tarafta türkçeler ve sağ tarafta ingilizceler olmak üzere sözlük vardır
+   <img src="https://user-images.githubusercontent.com/82450697/116370214-da489680-a812-11eb-896f-7a820b8a0cf3.PNG">
 
    
-        <li>Sözlük bu şekilde kullanılabilir ama kelimeleri bulmak bilgisayar için zaman almaktadır. </li>
-        <li>Eğer bir türkçe kelimenin ingilizce yerinin hangi satırda olduğunu net olarak bilirsek arama algoritması kullanmaya gerek kalmaz </li>
+   * Sözlük bu şekilde kullanılabilir ama kelimeleri bulmak bilgisayar için zaman almaktadır.
+   <ol>
+   <li>Eğer bir türkçe kelimenin ingilizce yerinin hangi satırda olduğunu net olarak bilirsek arama algoritması kullanmaya gerek kalmaz </li>
         
-        <li>Program bu yüzden asal çarpan metodu kullanır.</li>
-        <li>Sıralı halde bulunan ardışık asallarla kelimede bulunan karakterlerin ASCII lerini birebir çarpıp tooplar</li>
-        <li>Kaydedeceğimiz yerin uzunluğuna göre modunu alır ve satır sayısı ortaya çıkar</li>
-        <li>Aynı satıra dek gelen kelimeler aralarında belirteç olarak ** tutularak yan yana yazılır. Bu sayede yerleri yine bellidir</li>
-        <li>Bu çıktıları "sozluk1.txt" ye kaydeder ve aramayı oradan yapar. Max arama istenilen ingilizce kelimenin satırındaki kelimeler kadardır</li>
-        <li>YANİ MÜKEMMEL Bİ ALGORİTMA</li>
-    
-   
-   
-   
+   <li>Program bu yüzden asal çarpan metodu kullanır.</li>
+   <li>Sıralı halde bulunan ardışık asallarla kelimede bulunan karakterlerin ASCII lerini birebir çarpıp tooplar</li>
+   <li>Kaydedeceğimiz yerin uzunluğuna göre modunu alır ve satır sayısı ortaya çıkar</li>
+   <li>Aynı satıra dek gelen kelimeler aralarında belirteç olarak ** tutularak yan yana yazılır. Bu sayede yerleri yine bellidir</li>
+   <li>Bu çıktıları "sozluk1.txt" ye kaydeder ve aramayı oradan yapar. Max arama istenilen ingilizce kelimenin satırındaki kelimeler kadardır</li>
+   <li>YANİ MÜKEMMEL Bİ ALGORİTMA</li>
    </ol>
+   
+
    
    
   
