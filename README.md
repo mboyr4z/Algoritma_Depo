@@ -2,7 +2,7 @@
 
 
 <h3><a href="#a_1">1. Gaussian Filtre Gezdirme</a></h3>
-<h3><a href="#a_2">1. Gaussian Filtre Gezdirme</a></h3>
+<h3><a href="#a_2">1. Hash_ile_sozluk_veritabani_bagli_liste</a></h3>
 <h3><a href="#a_3">1. Gaussian Filtre Gezdirme</a></h3>
 
 Kodlamış olduğumuz algoritmada amaç gaussian yöntemiyle fotoğrafta kenar yumuşatmadır.<br>
