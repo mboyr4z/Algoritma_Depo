@@ -61,8 +61,9 @@
    
    <h3>Amaç :</h3>
    
-   <ul>
+   <ol>
        <li>"sozluk.txt" içerisinde sol tarafta türkçeler ve sağ tarafta ingilizceler olmak üzere sözlük vardır</li>
+          <img src="https://user-images.githubusercontent.com/82450697/116370214-da489680-a812-11eb-896f-7a820b8a0cf3.PNG">
 
    
         <li>Sözlük bu şekilde kullanılabilir ama kelimeleri bulmak bilgisayar için zaman almaktadır. </li>
@@ -78,7 +79,7 @@
    
    
    
-   </ul>
+   </ol>
    
    
   
