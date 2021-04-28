@@ -21,9 +21,13 @@
    ikinci satır filtre boyutu,<br>
    üçüncü satır max pixsel değeri,<br>
    dördüncü satır min pixel değeri<br>
+   Burada resim, matris olarak ele alınmış ve pixel değerleri random olarak atanmıştır.<br>
+   
+   <hr>
+   <h3>ADIMLAR</h3>
    <ul type="square">
-   Burada resim, matris olarak ele alınmış ve pixel değerleri random olarak atanmıştır.
-
+ 
+   
    <li>Resim alınır, kenarları kendi değerleriyle, (filtre boyutu / 2) kalınlıkla artırılır.(Amaç Yumuşatmayı 0 değerlerinden kurtarmak, en doğru şekilde kendi değerleriyle yaptırmak).</li>
    <li>Kenarları belli olan resim 21*21 sabit matris üzerine yapıştırılır.(Üzerinde gezicek olan filtre hiç bi şekilde arraytan taşma hatası almaz).</li>
 
