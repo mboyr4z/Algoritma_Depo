@@ -12,7 +12,7 @@
 <div id="a_1">
    
    <h3> Gaussian Filtre Gezdirme </h3>
-   <a href = "#basliklar"> Konu Başlıklarına Dön</a>
+   <a href = "#basliklar"> Konu Başlıklarına Dön</a><br>
    Kodlamış olduğumuz algoritmada amaç gaussian yöntemiyle fotoğrafta kenar yumuşatmadır.<br>
    Gaussian'ın bu filtresi, kullanıcıdan alınan "input.txt" ye göre boyutlanır ve her bi matris elemanı 0.0370 dir.<br>
    input içi;<br>
