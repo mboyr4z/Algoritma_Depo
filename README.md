@@ -83,6 +83,12 @@
    <li>YANİ MÜKEMMEL Bİ ALGORİTMA</li>
    </ul>
    
+   <h3>ORTAYA ÇIKAN YENİ SÖZLÜK</h3>
+   <img src="https://user-images.githubusercontent.com/82450697/116376380-e0417600-a818-11eb-822b-af489eb0a011.PNG">
+   
+   <h3>PROGRAMIN ÇALIŞIR HALİ</h3>
+   <img src="https://user-images.githubusercontent.com/82450697/116376472-f818fa00-a818-11eb-9480-dbaedb41162f.PNG">
+   <hr>
 
    
    
