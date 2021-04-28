@@ -5,6 +5,9 @@
 <h3><a href="#a_2">2. Hash_ile_sozluk_veritabani_bagli_liste</a></h3>
 <h3><a href="#a_3">3. Telefon_tuslama</a></h3>
 
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 Kodlamış olduğumuz algoritmada amaç gaussian yöntemiyle fotoğrafta kenar yumuşatmadır.<br>
 Gaussian'ın bu filtresi, kullanıcıdan alınan "input.txt" ye göre boyutlanır ve her bi matris elemanı 0.0370 dir.<br>
 input içi;<br>
