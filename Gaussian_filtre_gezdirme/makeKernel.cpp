@@ -47,6 +47,14 @@ int main(){
 	filterSize = parameterArray[1];
 	whiteValue = parameterArray[2];
 	blackValue = parameterArray[3];
+	
+	if(imageSize > 9){
+		imageSize = 9;
+	}
+	
+	if(filterSize > 9){
+		filterSize = 9;
+	}
 	edgeWidth = filterSize / 2;
 	
 	
