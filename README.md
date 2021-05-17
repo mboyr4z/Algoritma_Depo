@@ -133,7 +133,7 @@
       <td><img src="https://user-images.githubusercontent.com/82450697/118477088-fb681d00-b716-11eb-823e-3d537788bccc.PNG"></td>
    </tr>
    </table>
-   Algoritma Hakkında Daha Kapsamlı Bilgi İçin : [Şadi Evren Şeker Form](https://bilgisayarkavramlari.com/2010/05/13/dijkstra-algoritmasi-2/)
+   Algoritma Hakkında Daha Kapsamlı Bilgi İçin : <a href = "https://bilgisayarkavramlari.com/2010/05/13/dijkstra-algoritmasi-2/">Şadi Baba Dijkstra Konu Anlatım</a>
    </ul>
 </div>
 
