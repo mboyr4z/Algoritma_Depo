@@ -123,6 +123,12 @@
    Fonksiyonumuz : <br>
    <img src="https://user-images.githubusercontent.com/82450697/118476838-b17f3700-b716-11eb-97ff-c53f0b03891f.PNG">
    
+   <table>
+   <tr>
+      <td><img src="https://user-images.githubusercontent.com/82450697/118477122-058a1b80-b717-11eb-9c74-1cf4a7f97138.png"></td>
+      <td><img src="https://user-images.githubusercontent.com/82450697/118477088-fb681d00-b716-11eb-823e-3d537788bccc.PNG"></td>
+   </tr>
+   </table>
    
    </ul>
 </div>
