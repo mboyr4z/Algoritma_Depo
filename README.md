@@ -93,6 +93,8 @@
 
 </div>
 
+<hr>
+
 
 <div id="a_3">
    
@@ -105,7 +107,7 @@
 </div>
 
 
-
+<hr>
 
 <div id="a_4">
    
@@ -123,6 +125,8 @@
    Fonksiyonumuz : <br>
    <img src="https://user-images.githubusercontent.com/82450697/118476838-b17f3700-b716-11eb-97ff-c53f0b03891f.PNG">
    
+   Almış olduğumuz çıktının görsel hali ve Konsolda düğümlerin gösterilmesi
+   <br>
    <table>
    <tr>
       <td><img src="https://user-images.githubusercontent.com/82450697/118477122-058a1b80-b717-11eb-9c74-1cf4a7f97138.png"></td>
@@ -132,3 +136,5 @@
    
    </ul>
 </div>
+
+<hr>
