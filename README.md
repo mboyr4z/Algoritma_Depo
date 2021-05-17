@@ -117,5 +117,7 @@
    <li>Kodlamaya uygun hale getirebilmek amacıyla her düğümü bir liste halinde tanımlıyoruz.Aşağıdaki Şekildeki gibi..</li><br>
    <img src="https://user-images.githubusercontent.com/82450697/118476260-f2c31700-b715-11eb-9d57-a51cf39d0d2b.PNG">
    <li>Yukarıdaki kodda tanımlanan düğümlerin ilk indisi başlangıçıtan kendisine olan uzaklık. 'A' düğümü '0', diğer düğümler ise 'sonsuz' değerle başlar</li>
+   <li>İkinci Indisi kendi harfi, Üçüncü indis ise liste halinde bağlantısı olan düğümlerdir, tabi o düğümlerin id sini ve o düğüme olan uzaklığı liste halinde tutar</li>
+   
    </ul>
 </di>
