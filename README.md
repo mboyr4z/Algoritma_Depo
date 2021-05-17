@@ -102,7 +102,7 @@
    <ul type="square">
    <li>Program "0" girdisi alana kadar devam eder ve çıktıyı ekrana verir</li>
    </ul>
-</di>
+</div>
 
 
 
@@ -118,6 +118,11 @@
    <img src="https://user-images.githubusercontent.com/82450697/118476260-f2c31700-b715-11eb-9d57-a51cf39d0d2b.PNG">
    <li>Yukarıdaki kodda tanımlanan düğümlerin ilk indisi başlangıçıtan kendisine olan uzaklık. 'A' düğümü '0', diğer düğümler ise 'sonsuz' değerle başlar</li>
    <li>İkinci Indisi kendi harfi, Üçüncü indis ise liste halinde bağlantısı olan düğümlerdir, tabi o düğümlerin id sini ve o düğüme olan uzaklığı liste halinde tutar</li>
+   <li>Recursive fonksiyonumuza başta 'A' düğümünü ve koşulla birlikte gitmesi gereken düğümleri sırasıyla recursive döndürüyoruz</li>
+   
+   Fonksiyonumuz : <br>
+   <img src="https://user-images.githubusercontent.com/82450697/118476838-b17f3700-b716-11eb-97ff-c53f0b03891f.PNG">
+   
    
    </ul>
-</di>
+</div>
