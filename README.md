@@ -133,7 +133,7 @@
       <td><img src="https://user-images.githubusercontent.com/82450697/118477088-fb681d00-b716-11eb-823e-3d537788bccc.PNG"></td>
    </tr>
    </table>
-   Algoritma Hakkında Daha Kapsamlı Bilgi İçin : https://bilgisayarkavramlari.com/2010/05/13/dijkstra-algoritmasi-2/#:~:text=Bilgisayar%20bilimlerinde%20kullan%C4%B1lan%20ve%20algoritmay%C4%B1,shortest%20path)%20bulmak%20i%C3%A7in%20kullan%C4%B1l%C4%B1r.&text=Dijkstra%20algoritmas%C4%B1%20herhangi%20bir%20%C5%9Fekildeki,giden%20en%20k%C4%B1sa%20yolu%20hesaplar.
+   Algoritma Hakkında Daha Kapsamlı Bilgi İçin : [Şadi Evren Şeker Form](https://bilgisayarkavramlari.com/2010/05/13/dijkstra-algoritmasi-2/)
    </ul>
 </div>
 
