@@ -113,8 +113,8 @@
    <a href = "#basliklar"> Konu Başlıklarına Geri Dön</a><br>
    <img src="https://user-images.githubusercontent.com/82450697/118476024-ad9ee500-b715-11eb-97d7-28c01fdd1d30.png">
    <ul type="square">
-   Amacımız Yukarıdaki Şekilde 'A' düğümünden başlayıp diğer düğümlere olan en kısa uzaklığı bulmaktır. 
-   Kodlamaya uygun hale getirebilmek amacıyla her düğümü bir liste halinde tanımlıyoruz 
+   <li>Amacımız Yukarıdaki Şekilde 'A' düğümünden başlayıp diğer düğümlere olan en kısa uzaklığı bulmaktır. </li>
+   <li>Kodlamaya uygun hale getirebilmek amacıyla her düğümü bir liste halinde tanımlıyoruz.</li><br>
    <img src="https://user-images.githubusercontent.com/82450697/118476260-f2c31700-b715-11eb-9d57-a51cf39d0d2b.PNG">
    </ul>
 </di>
