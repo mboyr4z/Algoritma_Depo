@@ -114,7 +114,8 @@
    <img src="https://user-images.githubusercontent.com/82450697/118476024-ad9ee500-b715-11eb-97d7-28c01fdd1d30.png">
    <ul type="square">
    <li>Amacımız Yukarıdaki Şekilde 'A' düğümünden başlayıp diğer düğümlere olan en kısa uzaklığı bulmaktır. </li>
-   <li>Kodlamaya uygun hale getirebilmek amacıyla her düğümü bir liste halinde tanımlıyoruz.</li><br>
+   <li>Kodlamaya uygun hale getirebilmek amacıyla her düğümü bir liste halinde tanımlıyoruz.Aşağıdaki Şekildeki gibi..</li><br>
    <img src="https://user-images.githubusercontent.com/82450697/118476260-f2c31700-b715-11eb-9d57-a51cf39d0d2b.PNG">
+   <li>Yukarıdaki kodda tanımlanan düğümlerin ilk indisi başlangıçıtan kendisine olan uzaklık. 'A' düğümü '0', diğer düğümler ise 'sonsuz' değerle başlar</li>
    </ul>
 </di>
