@@ -7,6 +7,7 @@
    <h3><a href="#a_2">2. Hash_ile_sozluk_veritabani_bagli_liste</a></h3>
    <h3><a href="#a_3">3. Telefon_tuslama</a></h3>
    <h3><a href="#a_4">4. Dijkstra Algoritması</a></h3>
+   <h3><a href="#a_5">4. Dense Index</a></h3>
 </div>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -106,10 +107,9 @@
    </ul>
 </div>
 
-
 <hr>
-
-<div id="a_4">
+      
+      <div id="a_4">
    
    <h3> Dijkstra Algoritması </h3>
    <a href = "#basliklar"> Konu Başlıklarına Geri Dön</a><br>
@@ -136,5 +136,19 @@
    Algoritma Hakkında Daha Kapsamlı Bilgi İçin : <a href = "https://bilgisayarkavramlari.com/2010/05/13/dijkstra-algoritmasi-2/">Şadi Baba Dijkstra Konu Anlatım</a>
    </ul>
 </div>
-
 <hr>
+
+<div id="a_5">
+   
+   <h3> Dense Index </h3>
+   <a href = "#basliklar"> Konu Başlıklarına Geri Dön</a><br>
+   <img src="https://user-images.githubusercontent.com/82450697/138857181-2f6c52f3-8422-4135-bf06-4ef2db163621.png">
+   <ul type="square">
+   <li>Database olarak kullandığımız veri dosyalarımız büyüdülçe search yapma hızımız primal algoritmaları kullandıkça yavaşlamaktadır</li>
+   <li>Bunlar açözüm amaçlı indexleme algotimaları üretilmiştir. Bu algoritmalar veri dosyasının yanında veri dosyasındaki verilerin adreslerini tutan bir index tablosu oluşturmak ve bu tablo ile istenilen veriye search yapmadan direk adresine gidip veriyi çekmektir. Buradaki tek maliyet ise index tablosunda ilgili verinin primary değerini bulup adresini almaktır. İndex tablosu primary değere göre sıralı olduğundan binary search ile az bir maliyetle hedefe ulaştırı. </li>
+      <li>Yukarıdaki tabloda sol taraf index tablosunu gösterir. İndex tablosu ise "anahtar" diye adlandırdığımız primary değeri ve "adres" dediğimiz veri dosyasındaki bilginin yerini tutar. Tablodaki sağ taraf ise veri dosyasıdır. Veri dosyasında "offset" diye anlandırılan bilgi konumunu ve "data" ytani bilgileri içerir. Benim algoritmamda veri dosyasındaki offset, bilginin veridosyasındaki satır sırasını verir. Veri dosyası ".bin" formatında, index dosyası ise ".txt" formatındadır.</li>
+      
+
+</div>
+
+
